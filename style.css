@@ -34,3 +34,9 @@ div.slide div.train{
 	height: inherit;
 	position: relative;
 }
+div.slide div.train > div{
+	width: 320px;
+	min-height: 1360px;
+	float: left;
+	position: absolute;	 
+}
