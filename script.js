@@ -26,5 +26,24 @@ showop = function(n){
 	opa.eq(n).animate({minHeight:'inherit'},200);
 };
 
+// Set click function
+var lock = false;
+sld.click(function(){
+	if(lock != false){
+		opn($(this).index());
+	}
+	else{
+		lck($(this).index());
+	}
+	
+});
+lck = function(n){
+	opa.eq(n).css({display:'none'});
+	lock = true;
+};
+opn = function(n){
+	opa.eq(n).css({display:'block'});
+	lock = false;
+};
 
 });
