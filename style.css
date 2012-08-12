@@ -88,3 +88,33 @@ div.txt div.link p{
 	color: white;
 	font-size: 35px;
 }
+div.container-foot div.foot{
+	padding: 1px
+}
+div.foot div.menu{
+	width: 600px;
+	height: 50px;
+	margin: 0 auto;
+}
+div.foot div.menu ul{
+	list-style-type: none;
+}
+div.foot div.menu ul li{
+	
+	margin-top: 10px;
+	margin-left: 5px;
+	background-color: black;
+	float: left;
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: inset 0px 1px 10px #68a;
+	-webkit-transition:box-shadow 1s;
+}
+div.menu ul li a{
+	display:block;
+	padding: 7px 33px;
+	text-decoration: none;
+	color:white;
+}
+div.foot div.menu ul li:hover{
+	-webkit-box-shadow: inset 0px 1px 10px #45f;
+}
