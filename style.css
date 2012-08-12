@@ -47,3 +47,44 @@ div.slide div.opa{
 	opacity: 0.2;
 	position: absolute;
 }
+div.side div.txt{
+	width: inherit;
+	height: 200px;
+	margin-top: 240px;
+	position: relative;
+	padding-top: 1px;
+}
+div.side div.txt div.box{
+	width: 150px;
+	height: 35px;
+	margin-left: auto;
+	margin-top: 40px;
+	background-color: black;
+}
+div.side div.txt div.link{
+	width: 180px;
+	height: 100px;
+	margin-left: 40px;
+	margin-top: 5px;
+}
+div.side div.head{
+	width: 240px;
+	height: 50px;
+	position: absolute;
+	left:40px;
+	top:10px;
+}
+div.side div.head p{
+	font-size: 28px;
+	color: white;
+}
+div.txt div.box p{
+	text-align: center;
+	color: white;
+	font-size: 33px;
+}
+div.txt div.link p{
+	direction: rtl;
+	color: white;
+	font-size: 35px;
+}
