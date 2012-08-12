@@ -46,4 +46,17 @@ opn = function(n){
 	lock = false;
 };
 
+//Set slideshow for each sld
+sld1 = function(n){
+	sld.eq(0).animate({top:n*-680+'px'});
+};
+sld2 = function(n){
+	sld.eq(1).animate({top:n*-680+'px'});
+};
+sld3 = function(n){
+	sld.eq(2).animate({top:n*-680+'px'});
+};
+
+});
+
 });
