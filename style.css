@@ -1,2 +1,23 @@
 @charset "utf-8";
 /* CSS Document */
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: black;
+}
+div.container-main{
+	min-height: 700px;
+}
+div.container-foot{
+	min-height: 80px;
+}
+div[class|='container'] > div{
+	width: 980px;
+	min-height: inherit;
+	margin:0 auto;
+}
+div.container-main div.main{
+	padding: 1px;
+}
