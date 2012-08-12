@@ -21,3 +21,16 @@ div[class|='container'] > div{
 div.container-main div.main{
 	padding: 1px;
 }
+div.slide{
+	height: 680px;
+	width: 960px;
+	margin-top: 10px;
+	margin-left: 10px;
+	overflow: hidden;
+	background-color: white;
+}
+div.slide div.train{
+	width: 1100px;
+	height: inherit;
+	position: relative;
+}
