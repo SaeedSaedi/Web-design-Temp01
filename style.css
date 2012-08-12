@@ -40,3 +40,10 @@ div.slide div.train > div{
 	float: left;
 	position: absolute;	 
 }
+div.slide div.opa{
+	width: inherit;
+	min-height: inherit;
+	background-color: black;
+	opacity: 0.2;
+	position: absolute;
+}
