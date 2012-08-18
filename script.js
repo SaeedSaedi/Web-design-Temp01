@@ -8,7 +8,10 @@ var sld = $('div.train > div');
 	for(i = 0; i<3 ;i ++){
 		sld.eq(i).css({left:i*320+'px'});
 	};
-})()
+	sld.eq(0).css({backgroundImage:'url(images/kolaghermezi.jpg)'})
+	sld.eq(1).css({backgroundImage:'url(images/pesarkhale.jpg)'})
+	sld.eq(2).css({backgroundImage:'url(images/pesarameza.jpg)'})
+;})()
 
 //Hide|show black window on mouse over
 var opa = $('div.slide div.opa')
@@ -19,11 +22,11 @@ sld.mouseout(function(){
 	showop($(this).index());
 });
 clearop = function(n){
-	opa.eq(n).animate({minHeight:'0'},200);
+	opa.eq(n).animate({minHeight:'0'},500);
 		
 };
 showop = function(n){
-	opa.eq(n).animate({minHeight:'inherit'},200);
+	opa.eq(n).animate({minHeight:'inherit'},500);
 };
 
 // Set click function
