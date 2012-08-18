@@ -8,9 +8,10 @@ var sld = $('div.train > div');
 	for(i = 0; i<3 ;i ++){
 		sld.eq(i).css({left:i*320+'px'});
 	};
-	sld.eq(0).css({backgroundImage:'url(images/kolaghermezi.jpg)'})
-	sld.eq(1).css({backgroundImage:'url(images/pesarkhale.jpg)'})
-	sld.eq(2).css({backgroundImage:'url(images/pesarameza.jpg)'})
+	sld.css({backgroundImage:"url('images/first-background.jpg')"});
+	sld.eq(0).css({backgroundPosition:'7.2% 100%'});
+	sld.eq(1).css({backgroundPosition:'48.2% 100%'});
+	sld.eq(2).css({backgroundPosition:'90.2% 100%'});
 ;})()
 
 //Hide|show black window on mouse over
