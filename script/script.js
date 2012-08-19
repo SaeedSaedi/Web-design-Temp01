@@ -8,10 +8,10 @@ var sld = $('div.train > div');
 	for(i = 0; i<3 ;i ++){
 		sld.eq(i).css({left:i*320+'px'});
 	};
-	sld.css({backgroundImage:"url('images/final-background.jpg')",backgroundRepeat:'no-repeat'});
-	sld.eq(0).css({backgroundPosition:'11.5% 100%'});
-	sld.eq(1).css({backgroundPosition:'47.6% 100%'});
-	sld.eq(2).css({backgroundPosition:'83.8% 100%'});
+	sld.css({backgroundImage:"url('images/final-image.jpg')",backgroundRepeat:'no-repeat'});
+	sld.eq(0).css({backgroundPosition:'0 100%'});
+	sld.eq(1).css({backgroundPosition:'50% 100%'});
+	sld.eq(2).css({backgroundPosition:'100% 100%'});
 ;})()
 
 //Hide|show black window on mouse over
